@@ -1,12 +1,12 @@
 {
   "name": "new",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js project using express, ejs where we fetch the news data from news api.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node app.js",
-      "dev": "nodemon app.js" 
+    "test": "mocha",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +19,18 @@
     "moment": "^2.29.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.13"
-  }
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "nodemon": "^2.0.13",
+    "request": "^2.88.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/db9crt/NewsWebsite.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/db9crt/NewsWebsite/issues"
+  },
+  "homepage": "https://github.com/db9crt/NewsWebsite#readme"
 }
